@@ -1,0 +1,17 @@
+<div class="container my-5" style="width: 70%">
+  <h1 class="h1">Books</h1>
+<table class="table table-bordered">
+  <thead>
+  <tr>
+    <th scope="col">Name</th>
+    <th scope="col">Region</th>
+  </tr>
+  </thead>
+  <tbody  *ngFor="let item of books">
+  <tr>
+    <td>{{item.name}}</td>
+    <td>{{item.region}}</td>
+  </tr>
+  </tbody>
+</table>
+</div>
